@@ -15,14 +15,7 @@ html{
     font-family: "Open Sans", sans-serif;
 }
 
-/* container rules */
-.container .row{
-    display: flex;
-    justify-content: space;
-    align-items: center; 
-
-}
-
+/* in common rules */
 .cta{
     padding: 0 15px;
     border-radius: 999px;
@@ -33,6 +26,26 @@ html{
 }
 
 /* layout reules */
+.container{
+    max-width: 900px;
+	margin: 0 auto;
+}
+.container-small{
+    max-width: 900px;
+	margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-40{
+    width: 40%;
+}
+.col-10{
+    width: 10%;
+}
+
+/*header rules*/
 .nav-flex{
     display: flex;
     justify-content: center;
@@ -58,13 +71,6 @@ html{
 .login.cta{
     background-color: white;
     color: black;
-}
-
-.col-40{
-    width: 40%;
-}
-.col-10{
-    width: 10%;
 }
 
 /* first section  */
