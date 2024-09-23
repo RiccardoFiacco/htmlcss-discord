@@ -75,7 +75,9 @@ html{
 .col-10{
     width: 10%;
 }
-
+.big-img{
+    width: 80%;
+}
 /*header rules*/
 .nav-flex{
     display: flex;
@@ -160,12 +162,34 @@ html{
     justify-content: center;
     align-items: center;
     padding: 40px 50px;
+    text-align: center;
 }
 
+.main-footer-header{
+    margin-bottom: 20px;
+}
 .figure-footer{
-    background-color: rgb(2, 95, 6);
-    height: 800px;
     width: 1200px;
+}
+
+.main-footer-text{
+    display: inline-block;
+    width: 75%;
+}
+.last-part-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-adv{
+    background-image: url(../img/stars.svg);
+    line-height: 50px;
+    width: 50%;    
+    margin-bottom: 12px;
+}
+.col-download.cta{
+    width: 12%;
+    background-color: #7388da;
 }
 
 /* footer */
