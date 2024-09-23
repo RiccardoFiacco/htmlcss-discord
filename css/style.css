@@ -22,7 +22,8 @@ ul,ol{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 60px; 
+    padding: 12px 60px;
+    background-color: #255ee9; 
 }
 
 .main-menu{
