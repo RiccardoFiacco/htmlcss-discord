@@ -10,7 +10,13 @@
 ul,ol{
     list-style: none;
 }
-
+li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 html{
     font-family: "Open Sans", sans-serif;
 }
@@ -58,18 +64,18 @@ select{
     height: 400px;
     padding: 40px 50px;
 }
-.col-3{
-    background-color:rgb(254, 120, 120);
+.row-3{
     width: 400px;
     height: 400px;
 }
 
 .col-4{
-    background-color:rgb(69, 169, 189);
     width: 200px;
     height: 400px;
-    padding: 40px 50px;
+    display: flex;
+    align-items: flex-start; 
 }
+
 /* layout reules */
 .container{
     max-width: 1200px;
@@ -227,6 +233,12 @@ select{
     padding-top: 10px;
     display: flex;
 }
+
+.footer-list{
+    display: flex;
+    font-size: small;
+    
+}
 .section-type.third{
     display: flex;
     justify-content: center;
@@ -256,8 +268,14 @@ select{
     padding-bottom: 10px; 
 }
 
-.log-foot, .button-foot{
-    border: 1px dashed black; 
-    background-color: coral;
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
+.footer-button.cta.login{
+    background-color: #7388da;
+    color: white;
+}
