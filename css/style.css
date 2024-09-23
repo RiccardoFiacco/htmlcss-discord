@@ -23,6 +23,15 @@ html{
 
 }
 
+.cta{
+    padding: 0 15px;
+    border-radius: 999px;
+    display: block;
+    line-height: 32px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 /* layout reules */
 .nav-flex{
     display: flex;
@@ -41,20 +50,14 @@ html{
     gap: 30px;
 }
 
-.cta{
+.cta-div{
     display: flex;
     justify-content: flex-end;  
 }
 
-.login-cta{
+.login.cta{
     background-color: white;
     color: black;
-    padding: 0 15px;
-    border-radius: 999px;
-    display: block;
-    line-height: 32px;
-    font-size: 14px;
-    text-decoration: none;
 }
 
 .col-40{
