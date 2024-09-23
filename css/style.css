@@ -8,6 +8,7 @@
 ul,ol{
     list-style: none;
 }
+
 /* container rules */
 .container .row{
     display: flex;
@@ -146,37 +147,3 @@ log-foot, .button-foot{
     background-color: coral;
 }
 
-/*debug rules*/
-
-.debug .nav-flex {
-	border: 1px dashed black;
-    background-color: rgb(194, 253, 255);
-}
-
-.debug .logo,.main-menu, .cta{
-    border: 1px dashed black;
-    background-color: rgb(255, 187, 0);
-}
-
-.debug .hero {
-    border-bottom: 2px black;
-    margin-bottom: 2px;
-}
-
-.debug .future-img{
-    border: 1px dashed black;
-}
-
-.debug .col-1, .col-2, .col-3, .col-4{
-    border: 1px dashed black;
-}
-
-.debug .figure-main-footer{
-    border: 1px dashed black;
-}
-.debug .log-but{
-    background-color: aqua;
-}
-.debug .log-foot, .button-foot{
-    border: 1px dashed black; 
-}
