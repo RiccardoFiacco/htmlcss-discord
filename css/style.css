@@ -31,12 +31,20 @@ html{
 	margin: 0 auto;
 }
 .container-small{
+    max-width: 720px;
+	margin: 0 auto;
+}
+
+.container-small{
     max-width: 900px;
 	margin: 0 auto;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.col-100{
+    width: 100%;
 }
 .col-40{
     width: 40%;
@@ -75,17 +83,17 @@ html{
 
 /* first section  */
 .hero{
-    background-color: rgb(24, 0, 183);
+    background-image: url(../img/jumbo.png);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
 }
 
-.future-img{
+.hero-text{
     background-color: rgb(255, 118, 214);
-    height: 300px;
-    width: 50%;
 }
 
 /* 3 section */
