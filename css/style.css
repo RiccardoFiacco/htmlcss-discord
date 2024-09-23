@@ -1,0 +1,182 @@
+/*reset rules*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* container rules */
+.container .row{
+    display: flex;
+    justify-content: space;
+    align-items: center; 
+
+}
+
+/* layout reules */
+.nav-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 60px; 
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.cta{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-40{
+    width: 40%;
+}
+.col-10{
+    width: 10%;
+}
+
+/* first section  */
+.hero{
+    background-color: rgb(24, 0, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.future-img{
+    background-color: rgb(255, 118, 214);
+    height: 300px;
+    width: 50%;
+}
+
+/* 3 section */
+.section-type-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+.section-type-2{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.col-1{
+    background-color:rgb(19, 168, 242);
+    width: 800px;
+    height: 400px;
+}
+
+.col-2{
+    background-color:rgb(245, 181, 222);
+    width: 400px;
+    height: 400px;
+    padding: 40px 50px;
+}
+/* main footer */
+.figure-main-footer{
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.figure-footer{
+    background-color: rgb(2, 95, 6);
+    height: 800px;
+    width: 1200px;
+}
+
+/* footer */
+.section-type-3{
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:  50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.col-3{
+    background-color:rgb(254, 120, 120);
+    width: 400px;
+    height: 400px;
+}
+
+.col-4{
+    background-color:rgb(69, 169, 189);
+    width: 200px;
+    height: 400px;
+    padding: 40px 50px;
+}
+
+.log-but{
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px; 
+    
+}
+
+.div-foot{
+    background-color: aqua;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+log-foot, .button-foot{
+    border: 1px dashed black; 
+    background-color: coral;
+}
+
+/*debug rules*/
+
+.debug .nav-flex {
+	border: 1px dashed black;
+    background-color: rgb(194, 253, 255);
+}
+
+.debug .logo,.main-menu, .cta{
+    border: 1px dashed black;
+    background-color: rgb(255, 187, 0);
+}
+
+.debug .hero {
+    border-bottom: 2px black;
+    margin-bottom: 2px;
+}
+
+.debug .future-img{
+    border: 1px dashed black;
+}
+
+.debug .col-1, .col-2, .col-3, .col-4{
+    border: 1px dashed black;
+}
+
+.debug .figure-main-footer{
+    border: 1px dashed black;
+}
+.debug .log-but{
+    background-color: aqua;
+}
+.debug .log-foot, .button-foot{
+    border: 1px dashed black; 
+}
