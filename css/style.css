@@ -92,8 +92,33 @@ html{
     min-height: 600px;
 }
 
+
+.container-small .col-100{
+    text-align: center;  
+}
+.hero-header{
+    font-size: 35;
+    margin-bottom: 25px;
+    color: white;
+}
 .hero-text{
-    background-color: rgb(255, 118, 214);
+    color: white;
+}
+.row-hero-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.col-download{
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    line-height: 38px;
+}
+.col-open{
+    color: white;
+    background-color: #23262b;
+    line-height: 38px;
 }
 
 /* 3 section */
