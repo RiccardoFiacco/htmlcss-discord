@@ -25,18 +25,41 @@ html{
     text-decoration: none;
 }
 
+.section-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.col-title{
+   font-size: 34px;
+
+}
+.col-text{
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 20px;   
+ }
+
+.col-1{
+    width: 800px;
+    height: 400px;
+}
+
+.col-2{
+    width: 400px;
+    height: 400px;
+    padding: 40px 50px;
+}
+
 /* layout reules */
 .container{
-    max-width: 900px;
+    max-width: 1200px;
 	margin: 0 auto;
 }
 .container-small{
     max-width: 720px;
-	margin: 0 auto;
-}
-
-.container-small{
-    max-width: 900px;
 	margin: 0 auto;
 }
 .row{
@@ -92,7 +115,6 @@ html{
     min-height: 600px;
 }
 
-
 .container-small .col-100{
     text-align: center;  
 }
@@ -122,32 +144,15 @@ html{
 }
 
 /* 3 section */
-.section-type-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 50px;
-}
-.section-type-2{
+
+.section-type.second{
     background-color: rgb(210, 210, 210);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 50px;
 }
 
-.col-1{
-    background-color:rgb(19, 168, 242);
-    width: 800px;
-    height: 400px;
+.img-adaptation{
+    width: 75%;
 }
 
-.col-2{
-    background-color:rgb(245, 181, 222);
-    width: 400px;
-    height: 400px;
-    padding: 40px 50px;
-}
 /* main footer */
 .figure-main-footer{
     background-color: rgb(210, 210, 210);
