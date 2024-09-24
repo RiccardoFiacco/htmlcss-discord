@@ -176,7 +176,8 @@ select{
 }
 
 .img-adaptation{
-    width: 75%;
+    width: 100%;
+    display: block;
 }
 
 /* main footer */
@@ -243,7 +244,7 @@ select{
 .section-type.third{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding-left:  50px;
     padding-right: 50px;
     padding-top: 10px;
