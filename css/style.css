@@ -56,22 +56,18 @@ select{
 
 .col-1{
     width: 800px;
-    height: 400px;
 }
 
 .col-2{
     width: 400px;
-    height: 400px;
     padding: 40px 50px;
 }
 .row-3{
-    width: 400px;
-    height: 400px;
+    width: 400px;   
 }
 
 .col-4{
     width: 200px;
-    height: 400px;
     display: flex;
     align-items: flex-start; 
 }
