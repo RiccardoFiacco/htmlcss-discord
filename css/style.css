@@ -275,6 +275,7 @@ select{
     justify-content: space-between;
     padding-bottom: 30px;
     padding-top: 15px;
+    border-top: 1px solid grey;
 }
 
 .footer-button.cta.login{
